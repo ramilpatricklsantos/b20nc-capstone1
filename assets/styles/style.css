@@ -2,8 +2,8 @@
 /*NAVIGATION*/
 #mainNav {
   min-height: 56px;
-  background-color: #fff;
-  opacity: 0.5;
+  background-color: #d39e0063;
+  opacity: 0.8;
 }
 
 #mainNav .navbar-brand {
@@ -13,10 +13,20 @@
 }
 
 #linkhover:hover {
-  color: #dc3545;
+  color: #28a745;
   outline: none;
   background-color: transparent;
   transform: scale(1.2);
+}
+.navbar-expand .navbar-nav .nav-link {
+  color: black;
+  font-weight: 700;
+  }
+
+.winelogo{
+  width: 100px;
+  height: 100px;
+
 }
 
 
@@ -67,8 +77,8 @@
   height: auto;
   min-height: 35rem;
   padding: 15rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/bg1.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/bg1.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../images/bg1.");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../images/bg1.");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -76,7 +86,7 @@
 }
 
 .carousel-inner > .carousel-item > img{
-  width: 100%;
+  width: 100%
   height: 500px; 
 }
 
@@ -117,4 +127,86 @@ font-weight: 700;
 text-align: center;
 margin: 20px 20px 20px 20px;
 
+}
+
+
+/*SOCIAL MEDIA NAVIGATION*/
+.home-social {
+    font-family: "Varela Round";
+    list-style: none;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    -webkit-transform: translate3d(0, -50%, 0);
+    -ms-transform: translate3d(0, -50%, 0);
+    transform: translate3d(0, -50%, 0);
+}
+
+.home-social a {
+    color: white;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-social li {
+    position: relative;
+    padding: .9rem 0;
+}
+
+.home-social li a {
+    display: block;
+    width: 33px;
+    height: 33px;
+}
+
+.home-social i, .home-social span {
+    position: absolute;
+    top: 0;
+    line-height: 33px;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.home-social i {
+    font-size: 14px;
+    left: 0;
+    text-align: center;
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    line-height: calc(33px - 4px);
+    border: 2px solid #FFFFFF;
+    border-radius: 50%;
+
+}
+
+.home-social span {
+    color: #39b54a;
+    left: 50px;
+    font-size: 1.3rem;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    transform: scale(0);
+    -webkit-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
+
+}
+
+.home-social li:hover span {
+    opacity: 1;
+    visibility: visible;
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+}
+#matrix101{
+   font-family: "Varela Round";
+   font-weight: 800;
+   color: #fff;
+   background-color: rgba(20.392156862745097%,49.411764705882355%,49.411764705882355%,0.072);
+   
 }
