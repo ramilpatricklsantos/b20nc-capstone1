@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="shorcut icon"  href="assets/images/solarlogo.png" >
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
@@ -8,102 +9,176 @@
 	<!--BROWSER Compatibility-->
 	<meta http-equiv="X-UA-Compatible" content="IE-Edge">
 
-	<title>Landing Page</title>
+	<title>LANDING</title>
 	<!-- bootstrap.css -->
 	<link rel="stylesheet" type="text/css" href="assets/styles/css/bootstrap.min.css">
 
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="assets/styles/css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="assets/styles/css/owl.theme.default.css" />
+
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="assets/styles/css/magnific-popup.css" />
+
+	<!-- FONT AWESOME -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 
-  <!-- animate.css -->
-  <link rel="stylesheet" type="text/css" href="assets/styles/css/animate.css">
+	<!-- animate.css -->
+	<link rel="stylesheet" type="text/css" href="assets/styles/css/animate.css">
 
-  <link rel="stylesheet" type="text/css" href="assets/styles/style.css">
-
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/base.css">
 
 
-  <!-- linking of JQuery -->
-  <script type="text/javascript" src="assets/styles/js/jquery-3.3.1.min.js"></script>
+	<script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+	<!-- font awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
 
-  <!-- linking of JS. NOTE: JS is best position at the bottom of the html page -->
-  <script type="text/javascript" src="assets/styles/js/bootstrap.min.js"></script> 
+	<!-- linking of JQuery -->
+	<script type="text/javascript" src="assets/styles/js/jquery-3.3.1.min.js"></script>
 
-  <!-- linking of Popper.js -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
-  <script type="text/javascript" src="assets/styles/js/popper.min.js"></script>
+
+	<!-- linking of JS. NOTE: JS is best position at the bottom of the html page -->
+	<script type="text/javascript" src="assets/styles/js/bootstrap.min.js"></script> 
+
+	<!-- linking of Popper.js -->
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+	<script type="text/javascript" src="assets/styles/js/popper.min.js"></script>
 </head>
-<body id="page-top">
+<body>
+
+	<!-- /Background Image -->
+	
+
+	<header class="s-header">
+
+		<div class="row">
+
+			<div class="header-logo">
+				<a class="site-logo" href="index.html"><img src="assets/images/solarlogo.png" alt="SOLAR">RS Solar Panels</a>
+			</div>
+
+			<nav class="header-nav-wrap">
+				<ul class="header-nav">
+					<li class="current"><a class="smoothscroll"  href="home.html" title="home">Home</a></li>
+					<li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+					<li><a class="smoothscroll"  href="gallery.html" title="services">Gallery</a></li>
+					<li><a class="smoothscroll"  href="contact.html" title="contact">Contact</a></li>
+				</ul>
+			</nav> <!-- end header-nav-wrap -->
+
+			<a class="header-menu-toggle" href="#0">
+				<span class="header-menu-icon"></span>
+			</a>
+
+		</div> <!-- end row -->
+
+	</header> <!-- end s-header -->
 
 
-  <div>
+<!-- home
+	================================================== -->
+	<section style="background-image: url('assets/images/solar.jpg')" id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="assets/images/solar.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center">
 
-    <!-- NAVIGATION -->
-    <nav class="navbar navbar-expand navbar-white fixed-top" id="mainNav">
-      <div class="container">
-        <!-- <img class="winelogo" src="assets/images/wine."> -->
-        <a class="navbar-brand" href="index.html">B R U C E ~ W I N E ~ C O R P.</a>
-        <button class="navbar-toggler" type="button">
+		<div class="shadow-overlay"></div>
 
-          <!-- <i class="fas fa-bars"></i> --> 
-        </button>
+		<div class="home-content">
 
-        <div class="collapse navbar-collapse">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item" >
-              <a id="linkhover" class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item" >
-              <a id="linkhover" class="nav-link" href="project.html">Projects</a>
-            </li>
-            <li class="nav-item" >
-              <a id="linkhover" class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+			<div class="row home-content__main">
+
+				<h1>
+					Solar Energy – <br>
+					Today’s resource for a brighter tomorrow! <br>
+					
+				</h1>
+
+				<div class="home-content__button">
+					<a href="#about" class="smoothscroll btn btn-animatedbg">
+						About Solar
+					</a>
+				</div>
+
+				
+			</div> <!-- end home-content__main -->
+
+			<div class="home-content__scroll">
+				<a href="#about" class="scroll-link smoothscroll">
+					Scroll
+				</a>
+			</div>
+
+		</div> <!-- end home-content -->
+
+		<ul class="home-social">
+			<li>
+				<a href="http://www.facebook.com"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
+			</li>
+			<li>
+				<a href="http://www.twitter.com"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+			</li>
+			<li>
+				<a href="http://www.Instagram.com"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+			</li>
+			<li>
+				<a href="http://www.gmail.com"><i class="fab fa-google" aria-hidden="true"></i><span>Google</span></a>
+			</li>
+			<li>
+				<a href="http://yahoomail.com"><i class="fas fa-envelope-square" aria-hidden="true"></i><span>Email</span></a>
+			</li>
+		</ul> <!-- end home-social -->
+
+
+	</section> <!-- end s-home -->
+
+	  <!-- about
+	  	================================================== -->
+	  	<section id="about" class="s-about target-section">
+
+	  		<div class="row section-header" data-aos="fade-up">
+	  			<div class="col-full">
+	  				<h3 data-num="01" class="subhead">SOLAR PANELS</h3>
+	  				<h1 class="display-1">
+	  					Photovoltaic Solar panels absorb sunlight as a source of energy to generate electricity.
+	  				</h1>
+	  				<p class="lead">
+	  					A photovoltaic (PV) module is a packaged, connected assembly of typically 6x10 photovoltaic solar cells. Photovoltaic modules constitute the photovoltaic array of a photovoltaic system that generates and supplies solar electricity in commercial and residential applications.
+	  				</p>
+	  			</div>
+	  		</div>
+
+
+	  	</section> <!-- end s-about -->
+
+
+	  	<footer>
+	  		<div class="row">
+	  			<div class="col-full cl-copyright">
+	  				
+	  				<span> Copyright &copy; 2018</span>	
+
+	  				<span style="text-align: center;">RS SOLAR PANELS</span>
+
+	  				
+
+	  			</div>
+	  		</div>
+
+	  		<div class="cl-go-top">
+            <a title="Back to Top" href="#top"><i class="fas fa-arrow-up"></i></a>
         </div>
-      </div>
-    </nav>
-
-    <!-- HEADER -->
-    <header class="masterhead">
-      <div class="container d-flex h-100 align-items-center">
-        <div class="mx-auto text-center">
-          <h1 id="matrix101" class="text-uppercase shadow-lg p-4 mb-4">CAPSTONE 1</h1>
-          <h2 class="text-white-50 mx-auto mt-2 mb-5"></h2>
-          <!-- <div class="picture"></div> -->
-          <a href="#about" class="btn btn-success js-scroll-trigger">Get Started</a>
-        </div>
-      </div>
-    </header>
-
-    <ul class="home-social">
-      <li>
-
-        <a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i><span>Facebook</span></a>
-      </li>
-      <li>
-        <a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
-      </li>
-      <li>
-        <a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-      </li>
-
-    </ul> 
+	 	  	</footer>
 
 
-    <div></div>
-
-  </div>
-
-<!-- matrix -->
-
-
+ <!-- Java Script
+    ================================================== -->
+    <script src="assets/styles/js/jquery-3.2.1.min.js"></script>
+    <script src="assets/styles/js/plugins.js"></script>
+    <script src="assets/styles/js/main.js"></script>
 
 
-
-
-</body>
-</html>
+	  </body>
+	  </html>
